@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Rock Paper Sckissors</title>
+        <link rel="stylesheet" href="styles.css"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Advent+Pro|Bungee+Inline" rel="stylesheet">     
+        <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet"> 
+        
+    </head>
+    
+    <body>
+        <div id="container">
+            <section id="header">
+                <h1>Rock Paper Scissors Game</h1>
+                <p> <span>Directions</span>: Choose weapon below. First to <span>3 points</span> wins.</p>
+            </section>
+            
+            <section id="sb">
+                <h2 id="sb-player">0</h2>
+                <h2 id="sb-computer">0</h2>
+            </section>
+            
+            <section id="game-display">
+                <div id="player-display">
+                    <h3>PLAYER 1</h3>
+                    <i  id="player-weapon"></i>
+                </div>
+                
+                <div id="computer-display">
+                    <i  id="computer-weapon"></i>
+                    <h3>COMPUTER</h3>
+                </div>
+            </section>
+            
+            <section id="results">
+                <p id = "results-display">Round 1! Lets Play!</p>
+            </section>
+            
+            <section id="choose-weapon">
+                <h4>Choose your weapon</h4>
+                <div id="weapon-box">
+                    <i id="rock" class="weapon rock fa fa-hand-rock-o"></i>
+                    <i id="paper" class="weapon paper fa fa-hand-paper-o"></i>
+                    <i id="scissors" class="weapon scissors fa fa-hand-peace-o"></i>
+                </div>
+            </section>
+            
+            <section id="reset">
+                <button id="reset-button" class="button reset">Next Round</button>
+                <button id="reset-game" class="button reset">Click to Reset Game</button>
+            </section>
+            
+            
+            <section id="footer">
+                <p>Rock, Paper, Scissors Game Developed by Jahmzu for The Odin Project </p>
+            </section>
+            
+        </div>
+       
+        <script type="text/javascript" src="script.js"></script>    
+    </body>
+</html>
